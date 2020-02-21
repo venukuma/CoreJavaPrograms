@@ -1,9 +1,14 @@
+package com.madhu.programs;
+import java.util.Scanner;
+
 public class CheckEvenOrOdd {
 
 	public static void main(String[] args) {
 		
-		int i =100;
-		if(i%2==0) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a Number to check even or odd");
+		int number = scan.nextInt();
+		if(number%2==0) {
 			System.out.println("given number is even");
 		}
 		else
